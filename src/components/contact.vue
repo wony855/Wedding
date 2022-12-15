@@ -139,7 +139,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 47rem;
+  height: 43rem;
 }
 .contactH {
   display: flex;
@@ -188,7 +188,7 @@ export default {
 }
 .grooms,
 .brides {
-  margin: 0 4.6rem;
+  margin: 0 4rem;
 }
 
 #rotate-btn {
