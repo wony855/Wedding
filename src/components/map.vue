@@ -12,8 +12,8 @@
       <p>TEL. 0507-1314-8009</p>
     </div>
     
-    <div class="wedding-map" style="font: 12px AppleSDGothicNeo-Regular, dotum, sans-serif; letter-spacing: -1px; width: 96%; max-width: 520px; height:auto; color: rgb(51, 51, 51); position: relative; left: 50%">
-      <div style="width: 96%; max-width: 520px; height:auto">
+    <div class="wedding-map" style="font: 12px AppleSDGothicNeo-Regular, dotum, sans-serif; letter-spacing: -1px; width: 100%; max-width: 520px; height:auto; color: rgb(51, 51, 51); position: relative; left: 50%">
+      <div style="width: 100%; max-width: 520px; height:auto">
         <a href="https://map.kakao.com/?urlX=854907&amp;urlY=651603&amp;itemId=50158094&amp;q=%EC%9B%A8%EB%94%A9%EB%B0%94%EC%9D%B4%EC%9D%B4%EB%AA%85%EC%9B%90&amp;srcid=50158094&amp;map_type=TYPE_MAP&amp;from=roughmap" target="_blank">
           <img class="map" src="http://t1.daumcdn.net/roughmap/imgmap/f2be7b5bf1a0e1ae4987b784c5df56dc2be9ce68d05d104adb47a4c16f8abfbb" width=99.5% height=99.5% style="border: 1px solid rgb(204, 204, 204);">
         </a>
