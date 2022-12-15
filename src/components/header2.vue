@@ -94,9 +94,10 @@ export default {};
   font-size: 1.2rem;
 }
 .main-greeting-text p {
-  font-size: 1.27rem;
+  font-size: 1.25rem;
   margin-top: 0.5rem;
-  padding: 0.3rem 0;
+  padding: 0.2rem 0;
+  letter-spacing: -0.025rem;
   text-align: center;
 }
 .main-greeting-text {
@@ -104,11 +105,11 @@ export default {};
 }
 @media (min-width: 350px) {
   .main-info-location p {
-  font-size: 1.7rem;
-}
+    font-size: 1.7rem;
+  }
   .main-greeting-title {
-  padding-bottom: 4rem;
-}
+    padding-bottom: 4rem;
+  }
   .main-greeting-title p span {
     font-size: 1.4rem;
   }
@@ -118,7 +119,8 @@ export default {};
   .main-greeting-text p {
     font-size: 1.35rem;
     margin-top: 0.5rem;
-    padding: 0.3rem 0;
+    padding: 0.2rem 0;
+    letter-spacing: -0.025rem;
   }
   .main-greeting {
     margin: 0 auto;
@@ -134,19 +136,20 @@ export default {};
   .divide-line {
     margin: 3rem 2.5rem;
   }
-    .main-greeting-text p {
+  .main-greeting-text p {
     font-size: 1.5rem;
     margin-top: 0.5rem;
-    padding: 0.3rem 0;
+    padding: 0.2rem 0;
+    letter-spacing: -0.025rem;
   }
 }
 @media (min-width: 420px) {
   .main-info-title p {
     font-size:2.4rem;
-}
-.main-info-location p {
-  font-size: 1.7rem;
-}
+  }
+  .main-info-location p {
+    font-size: 1.7rem;
+  }
   .main-greeting-title p span {
     font-size: 1.4rem;
   }
@@ -156,7 +159,8 @@ export default {};
   .main-greeting-text p {
     font-size: 1.6rem;
     margin-top: 0.5rem;
-    padding: 0.3rem 0;
+    padding: 0.2rem 0;
+    letter-spacing: -0.025rem;
   }
   .main-greeting {
     padding: 0 3rem;
