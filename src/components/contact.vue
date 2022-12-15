@@ -53,7 +53,7 @@
     <!-- 토글버튼 -->
     <div class="toggle-box" v-if="toggle">
       <div class="grooms">
-        <p>신랑측 혼주</p>
+        <p><b>신랑측 혼주</b></p>
         <div class="grooms-contact">
           <div>
             <p>아버지 왕대환</p>
@@ -92,7 +92,7 @@
       <!-- 신랑측 혼주 -->
       
       <div class="brides">
-        <p>신부측 혼주</p>
+        <p><b>신부측 혼주</b></p>
         <div class="grooms-contact">
           <p>어머니 송미숙</p>
           <div class="buttons parents-btn-center">
