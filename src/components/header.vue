@@ -16,7 +16,7 @@
       <div class="main-greeting">
         <div class="main-greeting-title">
           <p>왕대환 ∙ 김정국의 <span>장남</span> 종원</p>
-          <p>송미숙의 <span>차녀</span> 지예</p>
+          <p>송미숙의 <span>차녀</span> 김지예</p>
           <p>결혼합니다</p>
         </div>
         <div class="main-greeting-text">
