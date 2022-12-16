@@ -20,7 +20,7 @@
               <div class="account-row">
                 <div class="account-row-column-text">
                   <li>김정국</li>
-                  <li>농협 15001651073978</li>
+                  <li>대구 00808026404</li>
                 </div>
                 <button class="btn-copy" @click="copyInfo" id="groom-w">
                   복사하기
@@ -105,7 +105,7 @@ export default {
       groom: "신한 40112412559",
       bride: "하나 87891005503007",
       groom_m: "농협 72512239872",
-      groom_w: "농협 15001651073978",
+      groom_w: "대구 00808026404",
       bride_w: "우리 1002835254531",
     };
   },
@@ -122,30 +122,37 @@ export default {
 
       const t = document.createElement("textarea");
       document.body.appendChild(t);
+      
+      let name = "";
 
       if (buttonId == "groom-m") {
+        name = "왕대환 (신랑 혼주)"
         t.value = this.groom_m;
         t.select();
         document.execCommand("copy");
       } else if (buttonId == "groom-w") {
+        name = "김정국 (신랑 혼주)"
         t.value = this.groom_w;
         t.select();
         document.execCommand("copy");
       } else if (buttonId == "groom") {
+        name = "왕종원 (신랑)"
         t.value = this.groom;
         t.select();
         document.execCommand("copy");
       } else if (buttonId == "bride-w") {
+        name = "송미숙 (신부 혼주)"
         t.value = this.bride_w;
         t.select();
         document.execCommand("copy");
       } else {
+        name = "김지예 (신부)"
         // this.$copyText(this.bride);
         t.value = this.bride;
         t.select();
         document.execCommand("copy");
       }
-      alert("복사되었습니다.");
+      alert(name + "\n복사되었습니다");
       document.body.removeChild(t);
       this.handleModal();
     },
