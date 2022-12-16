@@ -50,7 +50,7 @@
               <div class="account-row">
                 <div class="account-row-column-text">
                   <li>송미숙</li>
-                  <li>몰라유 00000000</li>
+                  <li>우리 1002835254531</li>
                 </div>
                 <button class="btn-copy" @click="copyInfo" id="bride-w">
                   복사하기
@@ -106,7 +106,7 @@ export default {
       bride: "하나 87891005503007",
       groom_m: "농협 72512239872",
       groom_w: "농협 15001651073978",
-      bride_w: "몰라유 00000000",
+      bride_w: "우리 1002835254531",
     };
   },
   methods: {
