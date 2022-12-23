@@ -137,7 +137,7 @@ export default {};
     margin: 3rem 2.5rem;
   }
   .main-greeting-text p {
-    font-size: 1.5rem;
+    font-size: 1.45rem;
     margin-top: 0.5rem;
     padding: 0.2rem 0;
     letter-spacing: -0.025rem;
@@ -157,7 +157,7 @@ export default {};
     font-size: 1.8rem;
   }
   .main-greeting-text p {
-    font-size: 1.6rem;
+    font-size: 1.55rem;
     margin-top: 0.5rem;
     padding: 0.2rem 0;
     letter-spacing: -0.025rem;
